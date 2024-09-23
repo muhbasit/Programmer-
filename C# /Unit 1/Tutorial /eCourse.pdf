@@ -1,0 +1,545 @@
+
+# INTRODUCTION TO C#
+---
+---
+* Overview of C#
+* .NET Framework and .NET Core
+* Installing and Setting up Visual Studio
+* Your First C# Program
+* Understanding Syntax, Variables, and Data Types
+
+---
+
+### Overview of C#
+
+C# (pronounced "C-sharp") is a modern, object-oriented programming language developed by Microsoft as part of its .NET initiative. Designed to be simple, versatile, and robust, C# enables developers to build a wide range of applications, from desktop software to web services and mobile apps.
+
+#### Language Features
+C# incorporates features from various programming paradigms, including imperative, functional, and object-oriented programming. Its syntax is clean and easy to read, making it accessible for beginners while providing the depth required for advanced developers.
+
+#### Object-Oriented Programming
+Central to C# is its strong support for object-oriented programming (OOP). It facilitates the creation of classes and objects, encapsulation, inheritance, and polymorphism, allowing for code reusability and modular design. This makes C# particularly well-suited for large-scale applications.
+
+#### Interoperability and Integration
+C# is designed to work seamlessly within the .NET ecosystem, providing interoperability with other languages and services. It supports various frameworks and libraries, such as ASP.NET for web development and Xamarin for mobile applications, enhancing its versatility.
+
+#### Memory Management
+C# includes an automated garbage collection system, which simplifies memory management by reclaiming memory allocated to objects that are no longer in use. This reduces the likelihood of memory leaks and enhances application stability.
+- **Cross-Platform**: Applications built with .NET Core can run on multiple operating systems, providing greater flexibility for deployment and hosting.
+INTRODUCTION TO C#
+Overview of C#
+.NET Framework and .NET Core
+Installing and Setting up Visual Studio
+Your First C# Program
+Understanding Syntax, Variables, and Data Types
+Overview of C#
+C# (pronounced "C-sharp") is a modern, object-oriented programming language developed by Microsoft as part of its .NET initiative. Designed to be simple, versatile, and robust, C# enables developers to build a wide range of applications, from desktop software to web services and mobile apps.
+Language Features
+C# incorporates features from various programming paradigms, including imperative, functional, and object-oriented programming. Its syntax is clean and easy to read, making it accessible for beginners while providing the depth required for advanced developers.
+Object-Oriented Programming
+Central to C# is its strong support for object-oriented programming (OOP). It facilitates the creation of classes and objects, encapsulation, inheritance, and polymorphism, allowing for code reusability and modular design. This makes C# particularly well-suited for large-scale applications.
+Interoperability and Integration
+C# is designed to work seamlessly within the .NET ecosystem, providing interoperability with other languages and services. It supports various frameworks and libraries, such as ASP.NET for web development and Xamarin for mobile applications, enhancing its versatility.
+Memory Management
+C# includes an automated garbage collection system, which simplifies memory management by reclaiming memory allocated to objects that are no longer in use. This reduces the likelihood of memory leaks and enhances application stability.
+Modern Language Features
+C# continues to evolve, incorporating modern programming constructs such as asynchronous programming, pattern matching, and records. These enhancements empower developers to write efficient and maintainable code.
+C# is a powerful programming language that combines ease of use with robust capabilities. Its extensive libraries, strong community support, and integration with the Microsoft ecosystem make it a popular choice for developers across various domains. Whether building enterprise-level applications or simple scripts, C# offers the tools and features necessary for success in today's software development landscape.
+.NET Framework
+The .NET Framework is a software development platform developed by Microsoft, providing a comprehensive and consistent programming model for building applications that run on Windows. It includes a large class library known as the Framework Class Library (FCL) and supports various programming languages, including C#, VB.NET, and F#.
+Key Components
+Common Language Runtime (CLR):
+The CLR is the execution engine for .NET applications, managing memory, security, and exception handling. It enables language interoperability, allowing code written in different languages to work together seamlessly.
+Framework Class Library (FCL):
+The FCL is a rich set of reusable classes, interfaces, and value types that developers can use to build applications. It provides functionality for tasks such as file I/O, database interaction, XML manipulation, and more.
+ASP.NET:
+A framework within the .NET Framework for building dynamic web applications and services. It supports MVC (Model-View-Controller) architecture, web APIs, and web forms, allowing for flexible web development.
+Windows Forms:
+A graphical (GUI) class library for building desktop applications. It provides controls and components for creating rich user interfaces on Windows.
+WPF (Windows Presentation Foundation):
+A UI framework for creating visually appealing desktop applications. WPF supports advanced graphics, data binding, and templates, enabling developers to create modern interfaces.
+Entity Framework:
+An object-relational mapping (ORM) framework that simplifies database access in .NET applications. It allows developers to interact with databases using .NET objects rather than SQL queries.
+Development Environment
+The primary integrated development environment (IDE) for .NET development is Microsoft Visual Studio. It provides powerful tools for coding, debugging, and deploying applications, as well as integrated support for version control and project management.
+Advantages
+Cross-Language Integration: Different languages can work together, allowing developers to choose the best language for a specific task.
+Rich Library Support: A vast array of pre-built libraries accelerates development and reduces the need to write common functionalities from scratch.
+Security Features: The .NET Framework includes built-in security features such as code access security and role-based security.
+Automatic Memory Management: The CLR’s garbage collection simplifies memory management, reducing the risk of memory leaks.
+The .NET Framework remains a foundational platform for building robust Windows applications. While it has evolved over the years, with newer technologies like .NET Core and .NET 5+ emerging to support cross-platform development, the .NET Framework continues to be widely used in enterprise environments for its stability, security, and extensive capabilities.
+.NET Core
+.NET Core is an open-source, cross-platform framework developed by Microsoft for building modern applications. It is designed to be lightweight, modular, and high-performance, allowing developers to create applications that run on Windows, macOS, and Linux.
+Key Components
+Runtime:
+The .NET Core runtime is responsible for executing applications and provides the core functionalities required for applications to run. It includes the Common Language Runtime (CLR) for managing code execution.
+Libraries:
+.NET Core includes a set of libraries that provide essential functionalities. These libraries are organized into NuGet packages, allowing developers to include only the necessary components for their applications.
+ASP.NET Core:
+A web framework optimized for building modern web applications and services. It supports MVC architecture, Razor Pages, and Web APIs, enabling developers to create dynamic and scalable web applications.
+Entity Framework Core:
+A lightweight, extensible version of the Entity Framework that allows developers to interact with databases using .NET objects. It supports various database providers, making it versatile for different application needs.
+Command-Line Interface (CLI):
+The .NET Core CLI provides tools for creating, building, and running .NET applications directly from the command line. This enables streamlined development and deployment workflows.
+Development Environment
+Developers can use various IDEs for .NET Core development, including Microsoft Visual Studio, Visual Studio Code, and JetBrains Rider. These environments offer robust tools for coding, debugging, and managing projects.
+Advantages
+Cross-Platform: Applications built with .NET Core can run on multiple operating systems, providing greater flexibility for deployment and hosting.
+Performance: .NET Core is optimized for performance, making it suitable for high-load applications and microservices architectures.
+Modularity: Developers can choose specific libraries and components, resulting in smaller application sizes and improved performance.
+Open Source: The open-source nature of .NET Core encourages community contributions and collaboration, enhancing the framework's capabilities and features.
+Compatibility
+.NET Core is designed to work seamlessly with existing .NET applications and libraries. However, it is important to note that some legacy features from the original .NET Framework may not be available in .NET Core.
+Versioning
+.NET Core follows a versioning strategy that includes major, minor, and patch releases. This approach allows for continuous improvements and the introduction of new features while maintaining backward compatibility.
+Installing and Setting up Visual Studio
+Step 1: Download Visual Studio
+Go to the official Visual Studio download page.
+Choose the edition you want to install (Community, Professional, or Enterprise). For most users, the Community edition is free and sufficient.
+Step 2: Run the Installer
+Once the installer is downloaded, locate the file (usually in your Downloads folder) and double-click to run it.
+You may see a User Account Control prompt. Click "Yes" to allow the installer to run.
+Step 3: Choose the Workloads
+After the installer opens, you will see various workloads to choose from based on the type of development you plan to do (e.g., .NET desktop development, ASP.NET and web development, etc.).
+Select the desired workloads by checking the boxes. You can also explore individual components if needed.
+Click the "Install" button at the bottom right.
+Step 4: Installation Progress
+The installer will start downloading the required components. This process may take some time depending on your internet speed and the selected workloads.
+You can monitor the progress on the installation screen.
+Step 5: Launch Visual Studio
+Once the installation is complete, you will see a "Launch" button. Click it to open Visual Studio for the first time.
+You may be prompted to sign in with a Microsoft account. Signing in allows you to sync settings and access additional features.
+Step 6: Customize Your Environment
+After launching, you can choose a color theme for the IDE (e.g., Light, Dark, Blue).
+You can also select the development settings that suit your workflow (e.g., C# development).
+Step 7: Create Your First Project
+Click on "Create a new project."
+Choose the type of project you want to create (e.g., Console Application, ASP.NET Web Application).
+Configure the project details (name, location, and framework), and click "Create."
+Additional Configuration
+If needed, you can install additional components or extensions via the "Extensions" menu in Visual Studio.
+Regularly check for updates to keep Visual Studio up to date.
+For visual references, you may want to refer to the official Visual Studio documentation or search for installation guides that include images, as I can't provide pictures directly.
+First C# Program
+Creating your first C# program is a straightforward process. Here’s a step-by-step guide to writing a simple "Welcome to Bilal Studio (BS)!" program in Visual Studio.
+Step 1: Open Visual Studio
+Launch Visual Studio.
+Step 2: Create a New Project
+Click on "Create a new project."
+In the "Create a new project" window, select "Console App (.NET Core)" or "Console App (.NET Framework)" depending on your preference.
+Click "Next."
+Step 3: Configure Your Project
+Enter a name for your project (e.g., BilalStudio).
+Choose a location to save your project.
+Click "Create."
+Step 4: Write the C# Code
+In the code editor, you will see a file named bStudio.cs. This file contains the main code for your application.
+Replace the existing code with the following:
+using System;
+
+namespace BilalStudio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to Bilal Studio (BS)!");
+        }
+    }
+}
+Step 5: Run the Program
+To run the program, click on the green "Start" button (or press F5).
+The console window will open, displaying the output:
+Welcome to Bilal Studio (BS)! 
+Step 6: Close the Console
+After reviewing the output, you can close the console window. You can stop the debugging session by clicking on the "Stop" button or pressing Shift + F5.
+Explanation of the Code
+using System;: This directive allows you to use classes from the System namespace, including the Console class.
+namespace BilalStudio: A namespace is used to organize code and avoid name conflicts.
+class Program: Defines a class named Program.
+static void Main(string[] args): The Main method is the entry point of any C# console application.
+Console.WriteLine("Welcome to Bilal Studio (BS)!");: This line outputs the text "Hello, World!" to the console.
+C# Syntax with Example: Beta Studio 01
+Basic Syntax Overview
+C# syntax includes several fundamental components, such as:
+Namespaces: Used to organize code.
+Classes: Blueprints for creating objects.
+Methods: Blocks of code that perform actions.
+Statements: Instructions that execute actions.
+Example Program: Beta Studio 01
+This example demonstrates the basic structure of a C# program named "Beta Studio 01." The program will print a welcome message to the console.
+using System; // Importing the System namespace
+
+namespace BetaStudio01 // Defining a namespace
+{
+    class Program // Defining a class named Program
+    {
+        static void Main(string[] args) // Main method - entry point of the program
+        {
+            Console.WriteLine("Welcome to Beta Studio 01!"); // Printing to the console
+        }
+    }
+}
+Explanation of the Code
+using System;: This line imports the System namespace, allowing access to the Console class for output.
+namespace BetaStudio01: This line defines a namespace called BetaStudio01, which helps organize the code.
+class Program: This defines a class named Program, serving as the main class for the application.
+static void Main(string[] args): The Main method is the entry point for the program. It is where the execution begins.
+Console.WriteLine("Welcome to Beta Studio 01!");: This line outputs the text "Welcome to Beta Studio 01!" to the console.
+Running the Program
+Open Visual Studio and create a new Console App project.
+Replace the default code in Program.cs with the example above.
+Run the program by clicking the "Start" button or pressing F5.
+The console will display:
+Welcome to Beta Studio 01!
+C# Variables
+Variables in C# are used to store data that can be manipulated throughout a program. Each variable has a type that determines what kind of data it can hold, such as integers, floating-point numbers, strings, or booleans.
+Declaring Variables
+To declare a variable in C#, you specify the data type followed by the variable name. The syntax is as follows:
+dataType variableName;
+Demonstrating variable declaration and initialization using Greek letter names, with the project name changed to "Beta Studio Props":
+using System;
+
+namespace BetaStudioProps
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Declaring and initializing variables
+            int alpha = 10;          // Integer variable
+            double beta = 20.5;     // Double variable
+            string theta = "Hello";  // String variable
+
+            // Using the variables
+            Console.WriteLine("Alpha: " + alpha);
+            Console.WriteLine("Beta: " + beta);
+            Console.WriteLine("Theta: " + theta);
+        }
+    }
+}
+Explanation of the Code
+int alpha = 10;: Declares an integer variable named alpha initialized with the value 10.
+double beta = 20.5;: Declares a double variable named beta initialized with the value 20.5.
+string theta = "Hello";: Declares a string variable named theta initialized with the text "Hello".
+Console.WriteLine(...): These lines print the values of the variables to the console.
+Running the Program
+Open Visual Studio and create a new Console App project named "Beta Studio Props."
+Replace the default code in Program.cs with the updated example above.
+Run the program by clicking the "Start" button or pressing F5.
+The console will display:
+Alpha: 10
+Beta: 20.5
+Theta: Hello
+C# Data Types
+C# provides a rich set of data types that can be categorized into two main groups: value types and reference types. Each data type has its specific use cases and characteristics.
+Value Types
+Value types store data directly and include the following:
+Integer Types:
+int: 32-bit signed integer.
+long: 64-bit signed integer.
+short: 16-bit signed integer.
+byte: 8-bit unsigned integer.
+Floating-Point Types:
+float: Single-precision 32-bit floating-point.
+double: Double-precision 64-bit floating-point.
+decimal: 128-bit precise decimal, suitable for financial calculations.
+Boolean:
+bool: Represents a true or false value.
+Character:
+char: Represents a single 16-bit Unicode character.
+Reference Types
+Reference types store a reference to the data rather than the data itself and include:
+String:
+string: Represents a sequence of characters.
+Object:
+object: The base type from which all other types derive.
+Arrays:
+Can hold multiple values of the same type.
+Example Program Using Unique Variable Names
+Here’s a simple example demonstrating different C# data types with unique variable names:
+using System;
+
+namespace BetaStudioProps
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Value types
+            int uniqueInteger = 42;                // Integer
+            double uniqueDouble = 3.14;            // Double
+            bool uniqueBoolean = true;              // Boolean
+            char uniqueCharacter = 'A';             // Character
+            decimal uniqueDecimal = 99.99m;        // Decimal
+
+            // Reference types
+            string uniqueString = "Welcome to C#"; // String
+            int[] uniqueArray = { 1, 2, 3, 4, 5 }; // Array
+
+            // Using the variables
+            Console.WriteLine("Integer: " + uniqueInteger);
+            Console.WriteLine("Double: " + uniqueDouble);
+            Console.WriteLine("Boolean: " + uniqueBoolean);
+            Console.WriteLine("Character: " + uniqueCharacter);
+            Console.WriteLine("Decimal: " + uniqueDecimal);
+            Console.WriteLine("String: " + uniqueString);
+            Console.WriteLine("Array: " + string.Join(", ", uniqueArray));
+        }
+    }
+}
+Explanation of the Code
+Value Types:
+int uniqueInteger = 42;: An integer variable.
+double uniqueDouble = 3.14;: A double variable.
+bool uniqueBoolean = true;: A boolean variable.
+char uniqueCharacter = 'A';: A character variable.
+decimal uniqueDecimal = 99.99m;: A decimal variable.
+Reference Types:
+string uniqueString = "Welcome to C#";: A string variable.
+int[] uniqueArray = { 1, 2, 3, 4, 5 };: An array variable.
+Console.WriteLine(...): These lines print the values of the variables to the console.
+Running the Program
+Open Visual Studio and create a new Console App project named "Beta Studio Props."
+Replace the default code in Program.cs with the updated example above.
+Run the program by clicking the "Start" button or pressing F5.
+The console will display:
+Integer: 42
+Double: 3.14
+Boolean: True
+Character: A
+Decimal: 99.99
+String: Welcome to C#
+Array: 1, 2, 3, 4, 5
+Project Name: Askari School
+Project Description:
+The Askari School project is designed to display the marks of students in Science subjects (Mathematics, Physics, Biology, Computer, and Chemistry) from Askari School Wah Cantt, Pakistan. It focuses on presenting the data of seven students: Bilal, Basit, Baber, Khalid, Saad, Amaar, and Zarar. The program highlights Bilal as the top scorer in the Science subjects. The student names and their marks are displayed in a tabular format, providing a clear overview of their performance.
+Code Example:
+using System;
+
+namespace AskariSchool
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Defining the student names and their marks in science subjects
+            string[] studentNames = { "Bilal", "Basit", "Baber", "Khalid", "Saad", "Amaar", "Zarar" };
+            int[,] marks = {
+                { 95, 90, 98, 97, 99 }, // Bilal
+                { 78, 82, 85, 80, 84 }, // Basit
+                { 70, 75, 72, 74, 71 }, // Baber
+                { 60, 65, 68, 62, 67 }, // Khalid
+                { 88, 85, 90, 87, 89 }, // Saad
+                { 72, 78, 80, 75, 77 }, // Amaar
+                { 85, 88, 82, 90, 87 }  // Zarar
+            };
+
+            string[] subjects = { "Mathematics", "Physics", "Biology", "Computer", "Chemistry" };
+
+            // Displaying the header
+            Console.WriteLine("Marks of Students from Askari School Wah Cantt, Pakistan");
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine($"{"Name",-10} {"Mathematics",-12} {"Physics",-8} {"Biology",-8} {"Computer",-9} {"Chemistry",-9}");
+            Console.WriteLine("--------------------------------------------------------");
+
+            // Displaying the marks for each student
+            for (int i = 0; i < studentNames.Length; i++)
+            {
+                Console.Write($"{studentNames[i],-10}");
+                for (int j = 0; j < subjects.Length; j++)
+                {
+                    Console.Write($"{marks[i, j],-12}");
+                }
+                Console.WriteLine();
+            }
+
+            // Highlighting Bilal as the top scorer
+            Console.WriteLine("\nNote: Bilal is the TOP scorer in Science subjects.");
+        }
+    }
+}
+Output:
+Marks of Students from Askari School Wah Cantt, Pakistan
+--------------------------------------------------------
+Name       Mathematics Physics  Biology  Computer Chemistry
+--------------------------------------------------------
+Bilal      95          90       98       97       99        
+Basit      78          82       85       80       84        
+Baber      70          75       72       74       71        
+Khalid     60          65       68       62       67        
+Saad       88          85       90       87       89        
+Amaar      72          78       80       75       77        
+Zarar      85          88       82       90       87        
+
+Note: Bilal is the TOP scorer in Science subjects.
+Explanation:
+Student Data: We have used a two-dimensional array to store the marks for each student in different subjects.
+Subjects: We have an array to hold the names of the subjects (Mathematics, Physics, Biology, Computer, Chemistry).
+Tabular Display: The program prints the student names and their corresponding marks in a formatted table.
+Highlighting Bilal: A note is displayed at the end, emphasizing that Bilal is the top scorer in Science subjects.
+Here’s another example of displaying the marks of students in a different format, focusing on presenting the top scorer in each subject.
+Project Name: Askari School - Top Scorer by Subject
+Project Description:
+This project, Askari School - Top Scorer by Subject, displays the marks of students (Bilal, Basit, Baber, Khalid, Saad, Amaar, Zarar) in Science subjects from Askari School Wah Cantt, Pakistan. The program also identifies the top scorer in each subject, highlighting which student has the highest marks in Mathematics, Physics, Biology, Computer, and Chemistry.
+Code Example:
+using System;
+
+namespace AskariSchool
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Defining the student names and their marks in science subjects
+            string[] studentNames = { "Bilal", "Basit", "Baber", "Khalid", "Saad", "Amaar", "Zarar" };
+            int[,] marks = {
+                { 95, 90, 98, 97, 99 }, // Bilal
+                { 78, 82, 85, 80, 84 }, // Basit
+                { 70, 75, 72, 74, 71 }, // Baber
+                { 60, 65, 68, 62, 67 }, // Khalid
+                { 88, 85, 90, 87, 89 }, // Saad
+                { 72, 78, 80, 75, 77 }, // Amaar
+                { 85, 88, 82, 90, 87 }  // Zarar
+            };
+
+            string[] subjects = { "Mathematics", "Physics", "Biology", "Computer", "Chemistry" };
+
+            // Displaying the header
+            Console.WriteLine("Marks of Students from Askari School Wah Cantt, Pakistan");
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine($"{"Name",-10} {"Mathematics",-12} {"Physics",-8} {"Biology",-8} {"Computer",-9} {"Chemistry",-9}");
+            Console.WriteLine("--------------------------------------------------------");
+
+            // Displaying the marks for each student
+            for (int i = 0; i < studentNames.Length; i++)
+            {
+                Console.Write($"{studentNames[i],-10}");
+                for (int j = 0; j < subjects.Length; j++)
+                {
+                    Console.Write($"{marks[i, j],-12}");
+                }
+                Console.WriteLine();
+            }
+
+            // Finding and displaying top scorer for each subject
+            Console.WriteLine("\nTop Scorer in Each Subject:");
+            for (int subjectIndex = 0; subjectIndex < subjects.Length; subjectIndex++)
+            {
+                int topScore = 0;
+                string topStudent = "";
+
+                for (int studentIndex = 0; studentIndex < studentNames.Length; studentIndex++)
+                {
+                    if (marks[studentIndex, subjectIndex] > topScore)
+                    {
+                        topScore = marks[studentIndex, subjectIndex];
+                        topStudent = studentNames[studentIndex];
+                    }
+                }
+                Console.WriteLine($"{subjects[subjectIndex]}: {topStudent} with {topScore} marks");
+            }
+        }
+    }
+}
+Output:
+Marks of Students from Askari School Wah Cantt, Pakistan
+--------------------------------------------------------
+Name       Mathematics Physics  Biology  Computer Chemistry
+--------------------------------------------------------
+Bilal      95          90       98       97       99        
+Basit      78          82       85       80       84        
+Baber      70          75       72       74       71        
+Khalid     60          65       68       62       67        
+Saad       88          85       90       87       89        
+Amaar      72          78       80       75       77        
+Zarar      85          88       82       90       87        
+
+Top Scorer in Each Subject:
+Mathematics: Bilal with 95 marks
+Physics: Bilal with 90 marks
+Biology: Bilal with 98 marks
+Computer: Bilal with 97 marks
+Chemistry: Bilal with 99 marks
+Explanation:
+Finding Top Scorer: For each subject, the program iterates through all students' marks to find who scored the highest. This is done using a loop that compares marks for each subject.
+Subjects Array: The subjects array contains the names of the subjects.
+Marks Array: The marks array holds the marks of each student for each subject.
+Output: The program first displays the marks of all students and then identifies the top scorer for each subject in a list.
+Running the Program:
+Open Visual Studio and create a new Console App project named "Askari School."
+Replace the default code in Program.cs with the updated example above.
+Run the program by clicking the "Start" button or pressing F5.
+The output will show the marks of all students, followed by the top scorer in each subject.
+Project Name: Pakistan Cities Population
+Project Description:
+The Pakistan Cities Population project displays the population of five major cities in Pakistan: Islamabad, Karachi, Lahore, Wah Cantt, and Attock. The program presents the population data in tabular form and identifies the city with the highest population.
+Code Example:
+using System;
+
+namespace PakistanCitiesPopulation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Defining the city names and their populations
+            string[] cityNames = { "Islamabad", "Karachi", "Lahore", "Wah Cantt", "Attock" };
+            int[] populations = { 1014825, 14910352, 12188000, 500000, 188000 };
+
+            // Displaying the header
+            Console.WriteLine("Population of Cities in Pakistan");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine($"{"City",-12} {"Population",-10}");
+            Console.WriteLine("--------------------------------");
+
+            // Displaying the population for each city
+            for (int i = 0; i < cityNames.Length; i++)
+            {
+                Console.WriteLine($"{cityNames[i],-12} {populations[i],-10}");
+            }
+
+            // Finding the city with the highest population
+            int highestPopulation = populations[0];
+            string highestCity = cityNames[0];
+
+            for (int i = 1; i < cityNames.Length; i++)
+            {
+                if (populations[i] > highestPopulation)
+                {
+                    highestPopulation = populations[i];
+                    highestCity = cityNames[i];
+                }
+            }
+
+            // Displaying the city with the highest population
+            Console.WriteLine("\nCity with the Highest Population:");
+            Console.WriteLine($"{highestCity} with a population of {highestPopulation}");
+        }
+    }
+}
+Output:
+Population of Cities in Pakistan
+--------------------------------
+City         Population
+--------------------------------
+Islamabad    1014825   
+Karachi      14910352  
+Lahore       12188000  
+Wah Cantt    500000    
+Attock       188000    
+
+City with the Highest Population:
+Karachi with a population of 14910352
+Explanation:
+City Data: The city names are stored in an array cityNames, and their corresponding populations are stored in the populations array.
+Tabular Display: The program prints the city names and their respective populations in a formatted table.
+Finding the Highest Population: A loop is used to compare the populations and find the city with the highest population.
+Output: After displaying the table of populations, the program highlights the city with the highest population.
+Running the Program:
+Open Visual Studio and create a new Console App project named "Pakistan Cities Population."
+Replace the default code in Program.cs with the updated example above.
+Run the program by clicking the "Start" button or pressing F5.
+The console will display the population of each city, followed by the city with the highest population.
+
+ 
